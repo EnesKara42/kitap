@@ -8,5 +8,5 @@ Feature: Login and publish something function
     Then user should login and publish something successfully "<kitap>" and "<quote>"
 
     Examples:
-      | kitap | quote                                                                                                                        |
-      | Aeden | Bu insanların tuhaf bir özelliği vardı ki, aralarından bazıları hissetmedikleri duyguları yansıtmanın sanki ustası olmuştu.. |
+      | kitap          | quote                                                                                                                                                                                  |
+      | Cehenneme Övgü | İnsanın sevdiğine sahip olma tutkusu aşkın kendisinden ağır basmaya başladığı an, bu aşk değildir artık. Aşk yaşamdan güçlü olamaz, özgürlükten yoksun olarak da varlığını sürdüremez. |
