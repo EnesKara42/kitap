@@ -4,23 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8f4cef-028c-4c6c-9c93-661af65609ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bin/Runner/cukesRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bin/Runner/failedTestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bin/pages/binKitapPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bin/step_definitions/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bin/step_definitions/binkitap_def.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bin/utilities/BrowserUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bin/utilities/ConfigurationReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bin/utilities/DBUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bin/utilities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/binkitap.feature" afterDir="false" />
+    <list default="true" id="ac8f4cef-028c-4c6c-9c93-661af65609ae" name="Changes" comment="change">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bin/pages/binKitapPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bin/pages/binKitapPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bin/step_definitions/binkitap_def.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bin/step_definitions/binkitap_def.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/binkitap.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/binkitap.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +96,23 @@
       <workItem from="1662270734600" duration="3883000" />
       <workItem from="1662274989328" duration="3389000" />
       <workItem from="1662291702949" duration="701000" />
+      <workItem from="1662292860662" duration="1893000" />
+      <workItem from="1662392275703" duration="232000" />
+      <workItem from="1662464003880" duration="1024000" />
+      <workItem from="1662536980560" duration="1878000" />
+      <workItem from="1663094386660" duration="27000" />
+      <workItem from="1663325842339" duration="6000" />
+      <workItem from="1663413150329" duration="1942000" />
+      <workItem from="1663423594925" duration="22000" />
     </task>
+    <task id="LOCAL-00001" summary="change">
+      <created>1662293108766</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662293108766</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,5 +128,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change" />
+    <option name="LAST_COMMIT_MESSAGE" value="change" />
   </component>
 </project>

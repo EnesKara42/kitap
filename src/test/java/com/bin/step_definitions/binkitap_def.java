@@ -44,17 +44,17 @@ public class binkitap_def {
     public void user_should_login_and_publish_something_successfully_and(String kitap, String alıntı) throws InterruptedException {
 
         binKitapPage.önceKitapSeçin.sendKeys(kitap);
-        Thread.sleep(5000);
+        Thread.sleep(2000);
       actions.sendKeys(Keys.ARROW_DOWN).perform();
-        Thread.sleep(5000);
+        Thread.sleep(2000);
       actions.sendKeys(Keys.ENTER).perform();
-        Thread.sleep(5000);
+        Thread.sleep(2000);
 
 
         binKitapPage.alıntınız.sendKeys(alıntı);
         binKitapPage.pAYLAŞenson.click();
         Driver.get().get(ConfigurationReader.get("url1"));
-        Thread.sleep(3000);
+        Thread.sleep(2000);
 
         BrowserUtils.verifyElementDisplayed(By.xpath("//span[contains(text(),'"+alıntı+"')]"));
 

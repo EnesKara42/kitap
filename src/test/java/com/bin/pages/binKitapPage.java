@@ -28,11 +28,11 @@ public class binKitapPage {
     public WebElement inputPassword;
     @FindBy(xpath = "//input[@placeholder='E-posta veya kullanıcı adı']")
     public WebElement inputUsername;
-    @FindBy(xpath = "//span[@class='text user-select-none letter-wider text-center text-beyaz-gunduz font-medium text-13']")
+    @FindBy(xpath = "//span[.='GİRİŞ YAP']")
     public WebElement loginButton;
 
 
-    @FindBy(xpath = "//div[@class='svg svg-23']//*[name()='svg']")
+    @FindBy(xpath = "(//button[@class='dr  pointer-events-box-only   cursor'])[1]")
     public WebElement paylaş;
     @FindBy(xpath = "//span[contains(text(),'Alıntı Paylaş')]")
     public WebElement alıntıPaylaş;
@@ -42,7 +42,7 @@ public class binKitapPage {
 
 
 
-    @FindBy(xpath = "//textarea[@placeholder='Alıntınız...']")
+    @FindBy(xpath = "//textarea[@placeholder='Kitaptan cümleler']")
     public WebElement alıntınız;
     @FindBy(xpath = "//span[contains(text(),'PAYLAŞ')]")
     public WebElement pAYLAŞenson;
